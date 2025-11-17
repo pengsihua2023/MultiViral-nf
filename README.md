@@ -1,8 +1,8 @@
-# Complementary Multi-Strategy Viral Metagenome Workflow
+# RVDB-Based Dual-Method Viral Metagenome Analysis Pipeline
 
 ## Project Overview
 
-This is a Nextflow-based viral metagenome workflow using **complementary strategies** to maximize virus identification coverage. Features **dual-assembler comparison** for short reads (MEGAHIT + SPAdes) and **dual-track analysis** for long reads (viralFlye feature-based + Diamond similarity-based). Supports both short-read (**Illumina**) and long-read (**Nanopore/PacBio**) data types.
+This is a Nextflow-based viral metagenome analysis pipeline using **dual-method strategies** to maximize virus identification coverage. Features **dual-assembler comparison** for short reads (MEGAHIT + SPAdes) and **dual-track analysis** for long reads (viralFlye feature-based + Diamond similarity-based). All viral classification is performed using **RVDB (Reference Viral Database)** via Diamond BLASTP. Supports both short-read (**Illumina**) and long-read (**Nanopore/PacBio**) data types.
 
 **Version**: 4.2.0  
 **Author**: Sihua Peng  
@@ -1287,7 +1287,7 @@ For questions or suggestions, please contact the project maintainer.
   - Genus Level Comparison (Top 15)
   - Species Level Comparison (Top 20)
 - 📝 All files converted to pure English (workflow, config, script, and documentation)
-- 📝 Updated workflow title to accurately reflect complementary multi-strategy approach: dual-assembler comparison (short reads) + dual-track analysis (long reads)
+- 📝 Updated workflow title to accurately reflect dual-method approach: dual-assembler comparison (short reads) + dual-track analysis (long reads), with emphasis on RVDB-based classification
 
 ### v4.1.0 (2025-11-05)
 - ✨ **Long-read dual-track analysis**: MetaFlye (all sequences) and viralFlye (viral only) complementary identification

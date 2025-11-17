@@ -1,6 +1,6 @@
-# Complementary Multi-Strategy Viral Metagenome Workflow
+# RVDB-Based Dual-Method Viral Metagenome Analysis Pipeline
 
-**Nextflow Pipeline with Dual-Assembler (Short Reads) and Dual-Track (Long Reads) Analysis**
+**Nextflow Pipeline with Dual-Assembler (Short Reads) and Dual-Track (Long Reads) Analysis, RVDB-Based Classification**
 
 Version 4.2.0 | 2025-11-17
 
@@ -22,7 +22,7 @@ A **comprehensive viral identification workflow** with two analysis modes:
 - 🎯 3-tier confidence classification
 - 📈 Viral abundance calculation: RPM and RPKM
 
-**Key Innovation**: Complementary methods maximize viral discovery coverage
+**Key Innovation**: Dual-method approach (dual-assembler for short reads, dual-track for long reads) maximizes viral discovery coverage, with all classification based on RVDB database
 
 ---
 
@@ -924,9 +924,9 @@ results_long/
 
 **Suggested citation**:
 ```
-Complementary Multi-Strategy Viral Metagenome Workflow
-Version 4.1.1 (2025)
-https://github.com/[your-repo]/complementary-viral-metagenome
+RVDB-Based Dual-Method Viral Metagenome Analysis Pipeline
+Version 4.2.0 (2025)
+https://github.com/[your-repo]/rvdb-dual-method-viral-metagenome
 ```
 
 ### Core Tools to Cite
@@ -973,7 +973,7 @@ https://github.com/[your-repo]/complementary-viral-metagenome
 ```bash
 # 1. Clone repository
 git clone [your-repo-url]
-cd complementary-viral-metagenome
+cd rvdb-dual-method-viral-metagenome
 
 # 2. Prepare test data
 cat > samplesheet_test.csv << EOF
