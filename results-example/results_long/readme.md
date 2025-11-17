@@ -1,3 +1,4 @@
 ## Screenshot of result files
-<img width="390" height="410" alt="image" src="https://github.com/user-attachments/assets/10a5cf71-079c-419c-83f7-030571b04343" />
+<img width="316" height="439" alt="image" src="https://github.com/user-attachments/assets/cc7a19a6-1a6a-46ca-baf6-ed3a9e666141" />
+
 
